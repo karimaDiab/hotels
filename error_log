@@ -1,0 +1,8 @@
+[05-Dec-2022 07:39:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_url() in /home/vuxy8ega4xrj/public_html/hotels/step_form.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/vuxy8ega4xrj/public_html/hotels/step_form.php on line 36
+[05-Dec-2022 07:41:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function site_url() in /home/vuxy8ega4xrj/public_html/hotels/step_form.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/vuxy8ega4xrj/public_html/hotels/step_form.php on line 36

@@ -561,6 +561,7 @@ if ($checkday > 0) {
                     </div>
                     <!-- /.col -->
                 </div> 
+<!--
 <?php echo form_open_multipart(base_url('booking/dashboard/gyab/')); ?>
                 <div class="row">
                     <div class="col-md-12 col-sm-6 col-xs-12">
@@ -588,7 +589,15 @@ foreach ($modif as $row):
                             <button type="submit" class="btn btn-primary" name="submit2" value="pl">انصراف</button>
 
 
-                            <br>    <br> 
+                          
+
+                        </div>
+
+                    </div>
+                </div>
+                </form>
+-->
+				  <br>    <br> 
 
                             الموظفين المتواجدين :
                             <?php $count = 0;
@@ -596,12 +605,7 @@ foreach ($modif as $row):
                                 ?>
                                 <a class="update btn btn-sm btn-success " href="#"><i class="material-icons"> <?= $row['name'] ?></i></a>
                             <?php endforeach; ?>
-
-                        </div>
-
-                    </div>
-                </div>
-                </form>
+				 <br>    <br> 
 
                 <?php if ($this->session->userdata('group') or $this->session->userdata('editor')):
                     echo form_open_multipart(base_url('booking/dashboard/gyab/'));

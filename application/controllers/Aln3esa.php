@@ -8,7 +8,7 @@ class Aln3esa extends CI_Controller {
     public function __construct() {
         parent::__construct();
          $this->urlboo = '1';
-
+          
 
         if (@stristr($_SERVER['REQUEST_URI'], 'booking2'))
             $this->urlboo = '2';

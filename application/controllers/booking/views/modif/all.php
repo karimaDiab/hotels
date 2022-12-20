@@ -1,5 +1,37 @@
 
 
+  <div class="row">
+     <?php if ($this->session->userdata('group') or $this->session->userdata('editor')):
+                    echo form_open_multipart(base_url('booking/dashboard/gyab/'));
+                    ?>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="info-box" style=" padding: 20px">
+                                <select dir=rtl name='modif' style="width: 200px"  >
+                                    <option value='' >اختر الموظف</option>
+									
+                                    <?php
+                                    $count = 0;
+                                    $count2 = 0;
+                                    foreach ($modif as $row):
+                                        ?>
+
+                                        <option value="<?= $row['name'] ?>"><?= $row['name'] ?></option> 
+                                    <?php endforeach; ?>
+                                </select>      
+
+                                <br><br>
+								<input type="text" name="note" placeholder="اضافة ملاحظة  ..." class="form-control" style=" height: 100px"><br>
+                                <input type="file" id="exampleInputFile" name="file1"> <br>
+                                <button type="submit" class="btn btn-primary" name="addnote" value="pl">اضافة ملاحظه</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    </form>
+                    <?php endif; ?>
+   </div>
 
 
 <div class="row">

@@ -598,15 +598,19 @@ foreach ($modif as $row):
                 </form>
 -->
 				  <br>    <br> 
-
+               <div class="row">
+                        <div class="col-md-12 col-sm-6 col-xs-12">
+                            <div class="info-box" style=" padding: 20px">
                             الموظفين المتواجدين :
                             <?php $count = 0;
                             foreach ($all_gyab as $row):
                                 ?>
                                 <a class="update btn btn-sm btn-success " href="#"><i class="material-icons"> <?= $row['name'] ?></i></a>
                             <?php endforeach; ?>
-				 <br>    <br> 
+				         <br>    <br> 
+							</div></div></div>
 
+<!--
                 <?php if ($this->session->userdata('group') or $this->session->userdata('editor')):
                     echo form_open_multipart(base_url('booking/dashboard/gyab/'));
                     ?>
@@ -622,7 +626,7 @@ foreach ($modif as $row):
                                         ?>
 
                                         <option value="<?= $row['name'] ?>"><?= $row['name'] ?></option> 
-    <?php endforeach; ?>
+                                  <?php endforeach; ?>
                                 </select>      
 
 
@@ -637,6 +641,7 @@ foreach ($modif as $row):
                     </div>
                     </form>
                     <?php endif; ?>
+-->
                 <div class="row">
                     <?php
                     if (($all_rooms_1 + $all_rooms_3) < 6) {

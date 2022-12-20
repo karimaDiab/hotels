@@ -23,12 +23,12 @@
 							  <input type="text" class="form-control" id="exampleInputPassword1" placeholder=" ملاحظة " name="comment" value="">
 
 									<br> 
-							   <input  name="file1" type="file" accept="image/*" capture>
+							   <input  name="file1" type="file" accept="image/*" capture required>
 									<br> 
 
                             <button type="submit" class="btn btn-primary" name="submit" value="pl">حضور</button>
 
-									<br> 
+									
                             <button type="submit" class="btn btn-primary" name="submit2" value="pl">انصراف</button>
 
 

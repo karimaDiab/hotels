@@ -54,9 +54,9 @@ class Modif extends MY_Controller {
        
         
           $dbhost = "localhost"; // الخادم
-        $dbuser = "kuwaityc_book";  // إسم مستخدم قاعدة البيانات
-        $dbpass = "Qaz*123123";     // باسويرد قاعدة البيانات
-        $dbname = "kuwaityc_ltef"; // إسم قاعدة البيانات
+      $dbuser = "root";  // إسم مستخدم قاعدة البيانات
+        $dbpass = "";     // باسويرد قاعدة البيانات
+        $dbname = "book_1_v3"; // إسم قاعدة البيانات
         
 //         $dbuser = "root";  // إسم مستخدم قاعدة البيانات
 //  $dbpass = "root";     // باسويرد قاعدة البيانات
@@ -211,9 +211,9 @@ $arraystat=mysqli_query($mysqli22,"select * from  `model_modif` where  text20!='
       
       
       $dbhost = "localhost"; // الخادم
-        $dbuser = "kuwaityc_book";  // إسم مستخدم قاعدة البيانات
-        $dbpass = "Qaz*123123";     // باسويرد قاعدة البيانات
-        $dbname = "kuwaityc_ltef"; // إسم قاعدة البيانات
+        $dbuser = "root";  // إسم مستخدم قاعدة البيانات
+        $dbpass = "";     // باسويرد قاعدة البيانات
+        $dbname = "book_1_v3"; // إسم قاعدة البيانات
         
         
 //           $dbuser = "root";  // إسم مستخدم قاعدة البيانات

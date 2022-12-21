@@ -27,7 +27,7 @@ class Aln3esa extends CI_Controller {
 
     public function restore($id = '') {
 
-        $output = @file_get_contents("http://localhost:8888/booking/aln3esa/backup/55992222");
+        $output = @file_get_contents("http://localhost/booking/aln3esa/backup/55992222");
         if ($output) {
             $this->load->helper('file');
             write_file("./assets/database_backup" . date("Y-m-d-H-i-s") . ".zip", $output);
